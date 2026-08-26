@@ -24,3 +24,6 @@ Thumbs.db
 .DS_Store
 ~$*
 *.tmp
+
+# 앱이 돌 때마다 다시 만드는 그림 - 올리지 않는다
+day08/lab25_analysis_app/figures/

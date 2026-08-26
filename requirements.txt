@@ -1,0 +1,28 @@
+# Streamlit Community Cloud 가 앱을 띄우기 전에 깔 것들
+# - day08/lab25_analysis_app/app.py 가 실제로 가져오는 것만 적었다
+# - 판 번호는 내 컴퓨터에서 돌아가는 것을 그대로 적었다
+#   클라우드가 이 판을 못 구해 실패하면 == 를 >= 로 바꾸면 된다
+
+# 화면을 만드는 도구
+streamlit==1.59.0
+
+# 표를 읽고 다루는 도구
+pandas==3.0.3
+
+# 모델 세 가지와 채점 점수
+scikit-learn==1.9.0
+
+# 그림 세 장을 그리는 도구
+matplotlib==3.11.1
+
+# 그림을 PNG 로 저장할 때 쓰인다 (matplotlib 과 reportlab 이 함께 쓴다)
+pillow==12.2.0
+
+# 리포트를 PDF 로 만드는 도구
+reportlab==4.5.1
+
+# 해석 문장을 받아오려고 서비스를 부를 때 쓴다
+requests==2.34.2
+
+# .env 에 넣어둔 열쇠를 읽을 때 쓴다
+python-dotenv==1.2.2
