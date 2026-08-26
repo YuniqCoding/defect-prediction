@@ -1,3 +1,11 @@
+**앱 열어보기 → https://defect-prediction-baacezxi4cknrmxegqfejf.streamlit.app/**
+
+![결과 탭 화면](day08/lab25_analysis_app/captures/04_결과_문턱과표.png)
+
+올린 표에서 어느 건이 불량인지 판단하고, 문턱을 옮겨가며 몇 건을 지목했고 그중 몇 건이 진짜였는지, 몇 건을 놓쳤는지 보는 화면입니다.
+
+---
+
 # 반도체 공정 데이터로 불량 조기 판별
 
 공정 계측 기록을 분석해 불량 가능성이 높은 흐름을 미리 걸러내는 프로젝트입니다.
